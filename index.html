@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/552ff4bf5d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Obsługa i opieka informatyczna dla firm.</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+  </head>
+  <body>
+    <nav id="navbar" class="navbar navbar-expand-lg mobile-nav">
+        <a class="navbar-brand" href="./index.html"><span class="navbar-brand-company-name">SZJ IT</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="hamburger-icon"><span></span><span></span><span></span></div>
+      </button>
+    </nav>
+      <div class="drop-down-menu-mobile">
+        <div class="white-background">
+            <div class="navbar-nav">
+              <div class="dropdown-divider dropdown-divider-white "></div>
+              <div class="drop-down-content">
+                <a class="link" href="#products"> Usługi IT</a>
+                <button id="btn" class="btn fa-solid fa-plus" ></button>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="dropdown" id="dropdown">
+                <a class="link link-dropdown" href="#products">Obsługa Informatyczna Firm</a>
+                <div class="dropdown-divider"></div>
+                <a class="link link-dropdown" href="#products">Administracja Serwerami</a>
+                <div class="dropdown-divider"></div>
+                <a class="link link-dropdown" href="#products">Budowa Sieci LAN / WIFI</a>
+                <div class="dropdown-divider"></div>
+                <a class="link link-dropdown" href="#products">Budowa Sieci Dla Hoteli</a>
+                <div class="dropdown-divider"></div>
+                <a class="link link-dropdown" href="#products">Oferta Opieki Informatycznej</a>
+                <div class="dropdown-divider"></div>
+              </div>
+              <a class="link" href="#aboutUs">O Nas</a>
+              <div class="dropdown-divider"></div>
+              <a class="link" href="#contact">Kontakt</a>
+              <div class="dropdown-divider dropdown-divider-white"></div>
+            </div>
+          </div>
+      </div>
+    <header>
+      <div class="header-top">
+        <div class="container">
+        <div class="header-top__content">
+          <div class="row ">
+                <div class="top-adresses">
+                  <p>
+                    <i class="fa-regular fa-envelope"></i>biuro@szj.pl
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>Zbrowskiego 10A
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-phone"></i>+48 000 000 000
+                  </p>
+                </div>
+                <div class="top-right-socials">
+                  <ul>
+                    <li><a class="fab fa-linkedin-in" href=""></a></li>
+                  </ul>
+                </div>
+            </div>
+      </div>
+    </div>
+    </header>
+    <div class="navbar navbar-expand-lg bg-body-tertiary desktop-nav">
+      <div class="container">
+        <a class="navbar-brand navbar-brand-desktop" href="#">SZJ IT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav navbar-nav-desktop">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Usługi IT
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#products">Obsługa Informatyczna Firm</a></li>
+                <li><a class="dropdown-item" href="#products">Administracja Serwerami</a></li>
+                <li><a class="dropdown-item" href="#products">Budowa Sieci LAN / WIFI</a></li>
+                <li><a class="dropdown-item" href="#products">Oferta Opieki Informatycznej</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#aboutUs">O Nas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hero-img">
+      <div class="hero-shadow"></div>
+      <div class="container">
+         <div class="hero-content">
+          <h1>usługi it</h1>
+          <p>Skuteczne rozwiązania informatyczne dla Twojego Biznesu.</p>
+          <a class="hero-btn" href="#aboutUs">Dowiedz się więcej <i class="fa-solid fa-greater-than"></i></a>
+        </div> 
+      </div>
+    </div>
+    </div>
+    <main>
+      <section class="about-us py-5" id="aboutUs">
+        <div class="container">
+          <h2 class="section-header-text">// o nas</h2>
+          <div class="card-group">
+            <div class="row ">
+              <div class="col-md-6">
+                <div class="card ">
+                  <img src="./img/about-us.jpg" class="card-img-top" alt="Architekt stojący przed budową domu">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Profesjonalna <span>Obsługa IT</span></h5>
+                    <p class="card-text">SZJ IT jest wyborem dla małych, średnich i dużych firm.
+                      Dostarczamy kompleksowe wsparcie informatyczne i biężacą pomoc użytkownikom.
+                    </p> 
+                    <div class="card-content">
+                      <a class="card-btn card-btn-first about-us-marked"  ><i class="fa-solid fa-book"></i>Misja</a>
+                    <a class="card-btn card-btn-second" ><i class="fa-solid fa-crosshairs"></i>Strategia</a>
+                    <a class="card-btn card-btn-third" ><i class="fa-solid fa-shield"></i>Jakość</a>
+                  </div>
+                  <p class="card-text card-text-second">Naszą misją jest informatyczne wspracie biznesu klientów. Dążymy do tego aby nasza oferta spełniała Państwa oczekiwania. Powierzenie nam funkcjonowania działu IT pozwoli zaoszczędzić Państwa czas i pieniądze.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      
+      <section class="products py-5" id="products">
+        <div class="container">
+          <h2 class="section-header-text">// nasze usługi</h2>
+          <h5 class="section-header-title"> Usługi IT</h5>
+          <div class="card-group">
+            <div class="row ">
+              <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                  <i class="fa-solid fa-laptop"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Obsługa Informatyczna Firm</h5>
+                    <p class="card-text">Zapewnimy wdrożenie najnowszych rozwiązań IT które zapewnią długofalowe oszczędności.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                  <i class="fa-solid fa-server"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Administracja Serwerami</h5>
+                    <p class="card-text">Usługi związane z serwerami jesteśmy w stanie świadczyć zdalnie lub na miejscu gwarantując bezpieczeństwo oraz ciągłość pracy.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                  <i class="fa-solid fa-network-wired"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Budowa Sieci Lan / WIFI</h5>
+                    <p class="card-text">Oferujemy budowę oraz modernizację istniejących sieci komputerowych.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                  <i class="fa-solid fa-circle-info"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Oferta Opieki Informatycznej</h5>
+                    <p class="card-text">Oferujemy pełne wsparcie informatyczne dzięki naszej wiedzy i doświadczeniu.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-us">
+        <div class="hero-img">
+          <div class="hero-shadow"></div>
+          <div class="container">
+            <h2 class="section-header-text py-5">// dlaczego my</h2>
+            <div class="card-group">
+              <div class="row">
+                <div class="col-md-6 card-center">
+                  <div class="card ">
+                    <img src="./img/why-us-content.jpg" class="card-img-top" alt="Dwoje ludzi na spotkaniu biznesowym">
+                  </div>
+                </div>
+                 <div class="col-md-6 card-center">
+                  <div class="card card-without-background">
+                    <div class="card-body">
+                      <h5 class="card-title">Sprawdzone <span>Rozwiązania IT</span></h5>
+                      <p class="card-text">Doświadczenie naszego zespołu z dziedziny serwisu i administracji sprostają Państwa oczekiwaniom.</p> 
+                      <div class="card-content">
+                        <div class="card-content-left">
+                          <i class="fa-solid fa-file"></i>
+                          <div class="card-content-right">
+                            <h7>Dopasowanie do Potrzeb</h7>
+                          <p>Zapewnimy optymalne rozwiązania dla twojego biznesu. </p>
+                          </div>
+                        </div>
+                        <div class="card-content-left">
+                         <i class="fa-solid fa-database"></i>
+                          <div class="card-content-right">
+                            <h7>Poufność Danych i Bezpieczeństwo</h7>
+                            <p>Bezpieczeństwo i poufność danych naszych klientów stawiamy zawsze na pierwszym miejscu.</p>
+                          </div>
+                        </div>
+                        <div class="card-content-left">
+                      <i class="fa-solid fa-gauge-high"></i>
+                          <div class="card-content-right">
+                            <h7>Szybkość świadczonych usług</h7>
+                            <p>Oferujemy stały kontakt telefoniczny umożliwając szybką pomoc w sytuacjach kryzysowych</p>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-header-text pt-5">// kontakt</h2>
+          <h5 class="section-header-title">Skontaktuj się z nami</h5>
+          <div class="card-group">
+            <div class="row ">
+               <div class="col-sm-12 "> 
+                <div class="card">
+                  <i class="fa-solid fa-phone"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Telefon</h5>
+                    <p class="card-text">+48 000 000 000</p>
+                  </div>
+                </div>
+               </div> 
+               <div class="col-sm-12 "> 
+                <div class="card">
+                  <i class="fa-solid fa-at"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Email</h5>
+                    <p class="card-text">biuro@szj.pl</p>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+ 
+      </section>
+
+    </main>
+
+     <footer class="footer py-5">
+      <div class="container">
+        <div class="footer-boxes">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="footer-box">
+                <h3 class="footer-box-title">Dane Firmy</h3>
+                <ul class="footer-box-list">
+                  <li class="link"><b>Adres:</b> Zbrowskiego 10A</li>
+                  <li class="link"><b>Telefon:</b> +48 000 000 000</li>
+                  <li class="link"><b>Email:</b> biuro@szj.pl</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="footer-box-second-list">
+          <ul class="list">
+            <div class="row">
+              <div class=" col-sm">
+               <a class="link" href="#products">O Nas</a>
+              </div>
+              <div class=" col-sm">
+              
+                <a class="link" href="#aboutUs">Oferta</a>
+              </div>
+              <div class="col-sm">
+                <a class="link" href="#contact">Kontakt</a>
+              </div>
+            </div>
+          </ul>
+          <ul class="footer-copy-right">
+            <li>&copy; <span class="footer-year"></span> SZJ IT</li>
+          </ul>
+        </div>
+      </div>
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
