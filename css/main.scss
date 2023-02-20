@@ -420,7 +420,7 @@ header {
 
 .why-us {
   .hero-img {
-    height: 1300px;
+    height: auto;
     background-image: url('../img/why-us-hero.jpg');
     z-index: 0;
   
@@ -439,7 +439,7 @@ header {
       .card-center {
         display: flex;
         align-items: center;
-
+        justify-content: flex-end;
       }
       .card-without-background {
         background: none;
@@ -450,6 +450,7 @@ header {
            display: flex;
            flex-direction: column;
           .card-title {
+            margin-top: 1em;
             margin-bottom: 1em;
              font-weight: bold;
              span {
@@ -651,14 +652,14 @@ $footer-gray-color: gray;
   }
 }
 
-.why-us {
-  .hero-img {
-    height: 85vh;
-    .hero-shadow {
-      height:  85vh;
-    }
-  }
-}
+// .why-us {
+//   .hero-img {
+//      /height: 85vh;
+//     .hero-shadow {
+//        height:  85vh;
+//     }
+//   }
+// }
 
 .footer {
   .footer-boxes {
@@ -825,6 +826,19 @@ $footer-gray-color: gray;
     }
   }
 
+  .why-us {
+  .hero-img {
+    .card-group {
+      .card {
+        .card-img-top {
+          max-width: 400px;
+          max-height: 400px;
+        }
+      }
+    }
+  }
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -857,14 +871,26 @@ $footer-gray-color: gray;
     }
   }
 
-  .why-us {
-    .hero-img {
-      height: 70vh;
-      .hero-shadow {
-        height:  70vh;
-      }
-    }
-}
+//   .why-us {
+//     .hero-img {
+//       height: 70vh;
+//       .hero-shadow {
+//         height:  70vh;
+//       }
+//     }
+// }
+
+// .why-us {
+//   .hero-img {
+//     .card-group {
+//       .card {
+//         .card-img-top {
+//         height: 35vh;
+//         }
+//       }
+//     }
+//   }
+//   }
 
 .footer {
   .footer-boxes {
@@ -900,13 +926,13 @@ $footer-gray-color: gray;
       }
     }
 
-    .why-us {
-      .hero-img {
-        height: 80vh;
-        .hero-shadow {
-          height:  80vh;
-        }
-      }
-    }
+    // .why-us {
+    //   .hero-img {
+    //     height: 80vh;
+    //     .hero-shadow {
+    //       height:  80vh;
+    //     }
+    //   }
+    // }
     
 }

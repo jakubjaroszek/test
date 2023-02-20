@@ -363,7 +363,7 @@ header .top-adresses::after {
 }
 
 .why-us .hero-img {
-  height: 1300px;
+  height: auto;
   background-image: url("../img/why-us-hero.jpg");
   z-index: 0;
 }
@@ -383,6 +383,7 @@ header .top-adresses::after {
 .why-us .hero-img .card-group .card-center {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 .why-us .hero-img .card-group .card-without-background {
   background: none;
@@ -395,6 +396,7 @@ header .top-adresses::after {
   flex-direction: column;
 }
 .why-us .hero-img .card-group .card .card-body .card-title {
+  margin-top: 1em;
   margin-bottom: 1em;
   font-weight: bold;
 }
@@ -546,12 +548,6 @@ header .top-adresses::after {
   .about-us .card-group .card .card-img-top {
     margin-top: 2.2em;
   }
-  .why-us .hero-img {
-    height: 85vh;
-  }
-  .why-us .hero-img .hero-shadow {
-    height: 85vh;
-  }
   .footer .footer-boxes .social-media {
     margin-top: 0;
   }
@@ -654,6 +650,10 @@ header .top-adresses::after {
   .contact .card-group {
     width: 100%;
   }
+  .why-us .hero-img .card-group .card .card-img-top {
+    max-width: 400px;
+    max-height: 400px;
+  }
 }
 @media (min-width: 1200px) {
   header .header-top .header-top__content .top-adresses::after {
@@ -668,12 +668,6 @@ header .top-adresses::after {
   .hero-img .hero-content .hero-btn {
     width: 20%;
   }
-  .why-us .hero-img {
-    height: 70vh;
-  }
-  .why-us .hero-img .hero-shadow {
-    height: 70vh;
-  }
   .footer .footer-boxes .footer-box {
     width: 190px;
   }
@@ -686,11 +680,5 @@ header .top-adresses::after {
     max-width: 546px;
     max-height: 364px;
     margin-left: 5em;
-  }
-  .why-us .hero-img {
-    height: 80vh;
-  }
-  .why-us .hero-img .hero-shadow {
-    height: 80vh;
   }
 }/*# sourceMappingURL=main.css.map */
