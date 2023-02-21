@@ -650,9 +650,8 @@ header .top-adresses::after {
   .contact .card-group {
     width: 100%;
   }
-  .why-us .hero-img .card-group .card .card-img-top {
-    max-width: 400px;
-    max-height: 400px;
+  .why-us .hero-img .card-group .card {
+    margin-bottom: 10em;
   }
 }
 @media (min-width: 1200px) {
